@@ -17,7 +17,7 @@ const CONFIG = {
 
   MATERY_POST_LIST_COVER: true, // 文章封面
   MATERY_POST_LIST_SUMMARY: true, // 文章摘要
-  MATERY_POST_LIST_PREVIEW: true, // 读取文章预览
+  MATERY_POST_LIST_PREVIEW: false, // 读取文章预览
 
   MATERY_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   MATERY_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
