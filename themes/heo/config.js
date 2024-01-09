@@ -14,7 +14,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '技术分享',
   HEO_HERO_TITLE_3: '追星娱乐',
   HEO_HERO_TITLE_4: '碎碎念念',
-  HEO_HERO_TITLE_5: 'Jane Blog',
+  HEO_HERO_TITLE_5: 'Jane’s Blog',
   HEO_HERO_TITLE_LINK: 'https://www.nanshi.dedyn.io',
 
   // 英雄区显示三个置顶分类
