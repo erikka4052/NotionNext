@@ -15,14 +15,14 @@ const Style = () => {
     }
 
     /* 设置了从上到下的渐变黑色 */
-    #theme-matery .header-cover::before {
+    #theme-matery .header-cover::before, .footer::before {
         content: "";
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background:  linear-gradient(to bottom, rgba(230,230,250,0.5) 0%, rgba(230,230,250,0.2) 10%, rgba(230,230,250,0) 25%, rgba(230,230,250,0.2) 75%, rgba(230,230,250,0.5) 100%);
+        background:  linear-gradient(to bottom, rgba(230,230,250,0.5) 0%, rgba(230,230,250,0.2) 10%, rgba(230,230,250,0) 25%, rgba(230,230,250,0.2) 75%, rgba(230,230,250,0.5) 100%) !important;
     }
     
   `}</style>
