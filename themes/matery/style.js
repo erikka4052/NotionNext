@@ -22,7 +22,7 @@ const Style = () => {
         left: 0;
         width: 100%;
         height: 100%;
-        background:  linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.5) 100%);
+        background:  linear-gradient(to bottom, rgba(230,230,250,0.5) 0%, rgba(230,230,250,0.2) 10%, rgba(230,230,250,0) 25%, rgba(230,230,250,0.2) 75%, rgba(230,230,250,0.5) 100%);
     }
     
   `}</style>
