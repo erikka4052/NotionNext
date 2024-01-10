@@ -15,10 +15,10 @@ const CONFIG = {
   SIMPLE_MENU_CATEGORY: true, // 显示分类
   SIMPLE_MENU_TAG: true, // 显示标签
   SIMPLE_MENU_ARCHIVE: true, // 显示归档
-  SIMPLE_MENU_SEARCH: true // 显示搜索
+  SIMPLE_MENU_SEARCH: true, // 显示搜索
   NEXT_WIDGET_TO_TOP: true, // 是否显示回顶
   NEXT_WIDGET_TO_BOTTOM: false, // 显示回底
   NEXT_WIDGET_DARK_MODE: true, // 显示日间/夜间模式切换
-  NEXT_WIDGET_TOC: true, // 移动端显示悬浮目录
+  NEXT_WIDGET_TOC: true // 移动端显示悬浮目录
 }
 export default CONFIG
