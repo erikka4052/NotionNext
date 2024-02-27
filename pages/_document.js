@@ -26,7 +26,7 @@ class MyDocument extends Document {
                       return <link key={index} rel="preload" href={fontUrl} as="font" type="font/woff2" />
                     }
                   })}
-                <script dangerouslySetInnerHTML={{ 
+                <script dangerouslySetInnerHTML={{
                   __html: `
                     (function(c,l,a,r,i,t,y){
                       c[a] = c[a] || function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -35,7 +35,7 @@ class MyDocument extends Document {
                       t.src="https://www.clarity.ms/tag/"+i;
                         y=l.getElementsByTagName(r)[0];
                         y.parentNode.insertBefore(t, y);
-                   })(window, document,"clarity","script","l874upe8wc")`,
+                   })(window, document,"clarity","script","l874upe8wc")`;
                 }}/>
 
                 </Head>
