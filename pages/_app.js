@@ -15,9 +15,6 @@ import { isBrowser, loadExternalResource } from '@/lib/utils'
 import ExternalPlugins from '@/components/ExternalPlugins'
 import { CUSTOM_EXTERNAL_CSS, CUSTOM_EXTERNAL_JS, IMG_SHADOW } from '@/blog.config'
 
-
-
-
 const MyApp = ({ Component, pageProps }) => {
   // 自定义样式css和js引入
   if (isBrowser) {
