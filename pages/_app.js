@@ -38,7 +38,6 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
 
 
 const MyApp = ({ Component, pageProps }) => {
