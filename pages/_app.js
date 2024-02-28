@@ -15,6 +15,28 @@ import { isBrowser, loadExternalResource } from '@/lib/utils'
 import ExternalPlugins from '@/components/ExternalPlugins'
 import { CUSTOM_EXTERNAL_CSS, CUSTOM_EXTERNAL_JS, IMG_SHADOW } from '@/blog.config'
 
+import Head from 'next/head'
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "l874upe8wc");
+        </script>
+      </Head>
+
+    </>
+  )
+}
+
+export default MyApp
+
+
 const MyApp = ({ Component, pageProps }) => {
   // 自定义样式css和js引入
   if (isBrowser) {
